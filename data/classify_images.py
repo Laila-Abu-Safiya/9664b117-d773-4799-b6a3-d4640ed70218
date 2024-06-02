@@ -71,7 +71,7 @@ def classify_images(images_dir, results_dic, model):
 
       classifer_label = classifer(path, model)
 
-      classifer_label = classifer_label.lower().strip
+      classifer_label = classifier_label.lower().strip
 
       pet_label = results_dic[key][0]
 
